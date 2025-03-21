@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link
+    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+    rel="stylesheet"  type='text/css'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+<script src="js/app.js" type="module"></script>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon navbar-light"></span>
+    </button>
+
+    <div id="Navbar" class="collapse navbar-collapse">
+      <ul class="navbar-nav w-100 d-flex justify-content-between text-center">
+        <li class="nav-item">
+          <a href="index.html" class="text-white mx-3">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="profile.html" class="text-white mx-3">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="text-white mx-3">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="login.html" class="text-white mx-3">Login</a>
+        </li>
+        <li class="nav-item">
+          <a href="signup.html" class="text-white mx-3">Sign up</a>
+        </li>
+        <li><a class="text-danger">Log out</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="px-4 py-2">
+    <div class="mx-5 text-center">
+      <h2>Add new message</h2>
+      <form class="d-flex container my-3" id="new-message-form">
+        <label class="sr-only" for="title"></label>
+        <input type="text" id="title" class="form-control w-25" placeholder="Title"><br>
+        <label class="sr-only" for="new-message"></label>
+        <input type="text" id="new-message" class="form-control mx-2" placeholder="Message"><br>
+        <div class="svg-container">
+          <button class="btn btn-dark w-90" type="submit">Add</button>
+        </div>
+      </form>
+    </div>
+    <div id="messages"></div>
+
+
+    </div>
+
+  <footer class="footer navbar-expand-lg navbar-light bg-dark">
+    <div class="container">
+      <ul class="navbar-nav w-100 d-flex justify-content-between text-center text-secondary py-2">
+
+        <li class="nav-item">
+          <a href="#" class="text-secondary mx-3">Privacy policy</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="text-secondary mx-3">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="text-secondary mx-3">Terms</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+<script src="js/view/comment_section.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</body>
+
+</html>
