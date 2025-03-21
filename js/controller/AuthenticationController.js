@@ -1,5 +1,5 @@
 import AccountsModel from "../model/AccountsModel.js";
-import User from "../model/entity/user.js";
+import User from "../model/entity/User.js";
 
 export default class AuthenticationController {
   constructor(model) {

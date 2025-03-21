@@ -1,4 +1,4 @@
-import User from "./entity/user.js";
+import User from "./entity/User.js";
 
 export default class MessageModel {
   constructor(messageDAO) {

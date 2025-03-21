@@ -1,4 +1,4 @@
-import User from "../model/entity/user.js";
+import User from "../model/entity/User.js";
 
 export default class AccountsDAO {
   constructor() {

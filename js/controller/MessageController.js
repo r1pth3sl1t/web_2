@@ -1,7 +1,7 @@
 import MessageModel from "../model/MessageModel.js";
-import Message from "../model/entity/message.js";
-import Comment from "../model/entity/comment.js";
-import MessageView from "../view/message_view.js";
+import Message from "../model/entity/Message.js";
+import Comment from "../model/entity/Comment.js";
+import MessageView from "../view/MessageView.js";
 import AccountsDAO from "../dao/AccountsDAO.js";
 
 export default class MessageController {
