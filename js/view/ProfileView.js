@@ -4,7 +4,6 @@ export default class ProfileView {
   }
 
   toHtml() {
-    console.log(this.user.birthDate);
     if (this.user)
       return `
         <div class="mx-auto">
@@ -26,7 +25,7 @@ export default class ProfileView {
             </tr>
             <tr>
               <th>Birthdate</th>
-              <td>${this.user.birthDate}</td>
+              <td>${this.user.birthDate.toDateString()}</td>
             </tr>
           </table>
         </div>
